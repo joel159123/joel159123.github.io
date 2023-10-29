@@ -1,0 +1,166 @@
+.center-image {
+  display: block; /* Para que la imagen sea un elemento en bloque */
+  margin: 0 auto;  /* Auto-margin en los lados izquierdo y derecho para centrar horizontalmente */
+}
+
+/* Agrega este código a tu archivo CSS (diseño.ccs/diseño.css) */
+/* Estilo para el fondo de la página */
+body {
+  background: linear-gradient(135deg, #00fff2, hsl(130, 54%, 73%)); /* Cambia los colores de fondo a los que desees */
+  background-size: 400% 400%;
+  animation: gradientBackground 8s linear infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+
+
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    color: #f9a825;
+  }
+  
+  /* Sección de platos */
+  .meal-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .meal-description {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .meal-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f9a825;
+  }
+  
+  /* Botones */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9a825;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e59200;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  /* Media queries para diseño responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .navbar li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .meal-section {
+      padding: 20px;
+    }
+  
+    .meal-title {
+      font-size: 1.8rem;
+    }
+  }
+  
+
+
+
+
+
+  
